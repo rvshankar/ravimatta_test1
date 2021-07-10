@@ -24,6 +24,7 @@ public class LognTest extends TestBase {
 		driver.findElement(By.xpath(OR.getProperty("password"))).sendKeys("Welcome@1");
 		driver.findElement(By.xpath(OR.getProperty("checkTerm"))).click();
 		driver.findElement(By.xpath(OR.getProperty("signInBtn"))).click();
+		System.out.println(driver.getTitle());
 	}
 
 }

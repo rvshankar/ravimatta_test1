@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-10T21:00:24 IST" name="Default suite" finished-at="2021-07-10T21:00:42 IST" duration-ms="18119">
+  <suite started-at="2021-07-10T22:39:32 IST" name="Default suite" finished-at="2021-07-10T22:39:48 IST" duration-ms="15947">
     <groups>
     </groups>
-    <test started-at="2021-07-10T21:00:24 IST" name="Default test" finished-at="2021-07-10T21:00:42 IST" duration-ms="18119">
+    <test started-at="2021-07-10T22:39:32 IST" name="Default test" finished-at="2021-07-10T22:39:48 IST" duration-ms="15947">
       <class name="com.trk.Testcases.LognTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.trk.Testcases.LognTest@a514af7]" started-at="2021-07-10T21:00:20 IST" name="setUp" finished-at="2021-07-10T21:00:24 IST" duration-ms="4199" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.trk.Testcases.LognTest@a514af7]" started-at="2021-07-10T22:39:26 IST" name="setUp" finished-at="2021-07-10T22:39:32 IST" duration-ms="5607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginAsOriginator()[pri:0, instance:com.trk.Testcases.LognTest@a514af7]" started-at="2021-07-10T21:00:24 IST" name="loginAsOriginator" finished-at="2021-07-10T21:00:42 IST" duration-ms="18036" status="FAIL">
+        <test-method signature="loginAsOriginator()[pri:0, instance:com.trk.Testcases.LognTest@a514af7]" started-at="2021-07-10T22:39:32 IST" name="loginAsOriginator" finished-at="2021-07-10T22:39:48 IST" duration-ms="15892" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='submitButton']"}
@@ -20,8 +20,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'TL118', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\RAVI~1.SHA\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:51942}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b0812c8e9050431ad587a035284db054
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\RAVI~1.SHA\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:56214}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f300ba84eb8db445ef1dbaf9a2d3177c
 *** Element info: {Using=xpath, value=//input[@id='submitButton']}]]>
             </message>
             <full-stacktrace>
@@ -31,8 +31,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'TL118', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\RAVI~1.SHA\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:51942}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b0812c8e9050431ad587a035284db054
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\RAVI~1.SHA\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:56214}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f300ba84eb8db445ef1dbaf9a2d3177c
 *** Element info: {Using=xpath, value=//input[@id='submitButton']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -84,7 +84,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAsOriginator -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.trk.Testcases.LognTest@a514af7]" started-at="2021-07-10T21:00:42 IST" name="tearDown" finished-at="2021-07-10T21:00:43 IST" duration-ms="266" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.trk.Testcases.LognTest@a514af7]" started-at="2021-07-10T22:39:48 IST" name="tearDown" finished-at="2021-07-10T22:39:48 IST" duration-ms="356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
