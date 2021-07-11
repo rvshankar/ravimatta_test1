@@ -1,10 +1,11 @@
 package com.trk.base;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -30,6 +31,7 @@ public class TestBase {
 	public static Properties config=new Properties();
 	public static Properties OR=new Properties();
 	public static FileInputStream fis;
+	public static Logger log=Logger.getLogger("devpinoyLogger");
 	
 	@BeforeSuite
 	public void setUp() throws IOException {
@@ -54,6 +56,9 @@ public class TestBase {
 		else {
 			System.out.println("only chrome, firefox and edge browser are configured");
 		}
+		driver.manage().window().maximize();
+		driver.get(config.getProperty("url"));
+		driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicit.wait")), TimeUnit.SECONDS);
 	}
 	
 	@AfterSuite

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-11T11:53:49 IST" name="Suite" finished-at="2021-07-11T11:53:58 IST" duration-ms="9074">
+    <groups>
+    </groups>
+    <test started-at="2021-07-11T11:53:49 IST" name="logiin Test" finished-at="2021-07-11T11:53:58 IST" duration-ms="9074">
+      <class name="com.trk.Testcases.LognTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.trk.Testcases.LognTest@402bba4f]" started-at="2021-07-11T11:53:37 IST" name="setUp" finished-at="2021-07-11T11:53:49 IST" duration-ms="11718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginAsOriginator()[pri:0, instance:com.trk.Testcases.LognTest@402bba4f]" started-at="2021-07-11T11:53:49 IST" name="loginAsOriginator" finished-at="2021-07-11T11:53:58 IST" duration-ms="9041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsOriginator -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.trk.Testcases.LognTest@402bba4f]" started-at="2021-07-11T11:53:58 IST" name="tearDown" finished-at="2021-07-11T11:53:59 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.trk.Testcases.LognTest -->
+    </test> <!-- logiin Test -->
+  </suite> <!-- Suite -->
+</testng-results>
